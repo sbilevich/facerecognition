@@ -1,0 +1,11 @@
+Tilt {
+    border: 1px solid black;
+    background: rgb(236,150,210);
+    background: linear-gradient(90deg, rgba(236,150,210,0.5891544117647058) 0%, rgba(121,9,83,1) 50%, rgba(210,47,125,1) 100%);
+    display: flex;
+    justify-content: flex-start;
+}    
+h1 {
+    margin: 0;
+    padding: 0;
+}
