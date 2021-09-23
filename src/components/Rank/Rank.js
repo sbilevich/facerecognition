@@ -3,16 +3,18 @@ import 'tachyons'
 
 
 
-const Rank = () => {
+const Rank = ({ user }) => {
+
+    const { name, entries } = user;
     return (
         <div>
             <div className='f3'>
-                {'User, your rank is ...'}
+                {`${name}, your rank is ...`}
             </div>
             <div className='f1'>
-                {'#5'}
+                {`#${entries}`}
             </div>
-        </div>  
+        </div>
     )
 }
 
